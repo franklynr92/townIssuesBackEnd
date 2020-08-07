@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  cross-street-1: MyString
+  cross-street-2: MyString
+  date: 2020-08-07
+  town: one
+
+two:
+  name: MyString
+  description: MyString
+  cross-street-1: MyString
+  cross-street-2: MyString
+  date: 2020-08-07
+  town: two
