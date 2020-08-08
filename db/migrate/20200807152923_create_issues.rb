@@ -6,7 +6,7 @@ class CreateIssues < ActiveRecord::Migration[6.0]
       t.string :cross_street_1
       t.string :cross_street_2
       t.date :date
-      t.references :town, null: false, foreign_key: true
+      t.integer :category_id 
 
       t.timestamps
     end
