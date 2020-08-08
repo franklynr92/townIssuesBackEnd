@@ -18,6 +18,18 @@ ActiveRecord::Schema.define(version: 2020_08_08_043130) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "issues", force: :cascade do |t|
+    t.string "title"
+    t.string "description"
+    t.string "cross_street_1"
+    t.string "cross_street_2"
+    t.date "date"
+    t.boolean "resolved", default: false
+    t.integer "category_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "towns", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
