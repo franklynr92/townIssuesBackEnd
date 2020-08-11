@@ -6,9 +6,6 @@ class IssuesController < ApplicationController
 
 
     def create
-        # issue = Issue.new(issue_params)
-        # issue.save
-        # render json: issue
         issue = Issue.create(issue_params)
         render json: issue
     end

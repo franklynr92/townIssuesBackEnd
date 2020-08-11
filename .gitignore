@@ -6,7 +6,9 @@
 
 # Ignore bundler config.
 /.bundle
-
+#ignore towns controller
+app/controllers/towns_controller.rb
+app/models/town.rb
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
