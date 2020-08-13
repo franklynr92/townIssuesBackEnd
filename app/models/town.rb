@@ -1,3 +1,0 @@
-class Town < ApplicationRecord
-    
-end
