@@ -10,8 +10,16 @@ class IssuesController < ApplicationController
         render json: issue
     end
 
+
+    def show
+        issue =  Issue.find_by_id(params[:id])
+        render json: issue
+    end
+    
     def update
-        issue = Issue.find_by(:id)
+        Issue.find_by_id(params[:id])
+        issue.update(issue_params)
+        render json: issue
     end
 
     private
