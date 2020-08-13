@@ -1,13 +1,10 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-Town.create(name:"Belleville")
-#Issue.create(name:"garbage", description:"too much smells", cross_street_1:"easy lane", cross_street_2:"any street", date: Faker::Date.between(from: Date.today - 365, to: Date.today), town_id: 2)
-#Issue.create(title:"garbage", description:"too much smells", cross_street_1:"easy lane", cross_street_2:"any street", date: "2020-08-07", resolved: "false")
+
+Issue.create(title:"garbage", description:"smell comes into the home", cross_street_1:"easy lane", cross_street_2:"any street", date: "2020-08-07", resolved: "false", category_id: 1)
+Issue.create(title:"Big Tree", description:"tree is blocking street", cross_street_1:"small lane", cross_street_2:"narrow street", date: "2020-08-07", resolved: "false", category_id: 1)
+Issue.create(title:"Construction truck", description:"truck isblocking street", cross_street_1:"small lane", cross_street_2:"narrow street", date: "2020-08-07", resolved: "false", category_id: 1)
+Issue.create(title:"Construction Materials", description:"tree is blocking street", cross_street_1:"small lane", cross_street_2:"narrow street", date: "2020-08-07", resolved: "false", category_id: 1)
+Issue.create(title:"Big Pile of Dirt", description:"big pile of dirt, not covered, lots of wind in the past few days", cross_street_1:"some street", cross_street_2:"narrow street", date: "2020-08-07", resolved: "false", category_id: 1)
+Issue.create(title:"Electrical wire cut", description:"electrical wire is cut and is blocking street", cross_street_1:"electric slide lane", cross_street_2:"narrow street", date: "2020-08-07", resolved: "false", category_id: 1)
 Category.create(type_of_issue:"Obstructions")
 Category.create(type_of_issue:"Smells/Odors")
 Category.create(type_of_issue:"Natural Disaster")
