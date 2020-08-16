@@ -1,24 +1,14 @@
 # README
+Fork and clone along with the frontend rep you came from
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Database is loaded with entries already
+run the following commands to see the database
 
-Things you may want to cover:
+    `rails db:migrate`
+    `rails db:seed `
 
-* Ruby version
+run the following command to run the server:
+    
+    `run rails`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Stretch feature would be to have an admin who is able to see what is being posted and allows it go through
