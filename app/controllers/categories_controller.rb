@@ -6,7 +6,7 @@ class CategoriesController < ApplicationController
     end
 
     def create
-    category = Category.create(category_params)
+        category = Category.create(category_params)
         render json: category
     end    
 
