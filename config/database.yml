@@ -44,7 +44,7 @@ development:
   encoding: unicode
   database: townissuesapp_development
   pool: 5
-  username: brenden
+  username: 
   password:
   timeout: 5000
  
@@ -74,6 +74,6 @@ test:
   encoding: unicode
   database: townissuesapp_test
   pool: 5
-  username: brenden
+  username: 
   password:
   timeout: 5000
